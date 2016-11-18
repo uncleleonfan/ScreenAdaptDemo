@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-port-v4\\values-xlarge-port-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 42,
+                    "endOffset": 93
+                },
+                "from": {
+                    "file": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\values-xlarge-port\\layouts.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 786,
+                        "endColumn": 42,
+                        "endOffset": 824
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 98,
+                    "endColumn": 73,
+                    "endOffset": 167
+                },
+                "from": {
+                    "file": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\values-xlarge-port\\layouts.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 712,
+                        "endColumn": 73,
+                        "endOffset": 781
+                    }
+                }
+            }
+        ]
+    }
+]

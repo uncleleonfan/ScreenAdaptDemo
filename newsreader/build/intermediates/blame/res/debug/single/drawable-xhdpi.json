@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_bg_normal.9.png",
+        "source": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\drawable-xhdpi\\tab_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon.png",
+        "source": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\drawable-xhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\button_normal.9.png",
+        "source": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\drawable-xhdpi\\button_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo.png",
+        "source": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\drawable-xhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_bg_selected.9.png",
+        "source": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\drawable-xhdpi\\tab_bg_selected.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\button_pressed.9.png",
+        "source": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\drawable-xhdpi\\button_pressed.9.png"
+    }
+]

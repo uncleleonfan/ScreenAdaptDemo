@@ -1,0 +1,129 @@
+[
+    {
+        "outputFile": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 43,
+                    "endOffset": 94
+                },
+                "from": {
+                    "file": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\values-v11\\layouts.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 778,
+                        "endColumn": 43,
+                        "endOffset": 817
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 99,
+                    "endColumn": 65,
+                    "endOffset": 160
+                },
+                "from": {
+                    "file": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\values-v11\\layouts.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 712,
+                        "endColumn": 65,
+                        "endOffset": 773
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 165,
+                    "endLine": 8,
+                    "endColumn": 8,
+                    "endOffset": 430
+                },
+                "from": {
+                    "file": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\values-v11\\style.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 0,
+                        "startOffset": 874,
+                        "endLine": 26,
+                        "endColumn": 8,
+                        "endOffset": 1139
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 435,
+                    "endLine": 13,
+                    "endColumn": 8,
+                    "endOffset": 628
+                },
+                "from": {
+                    "file": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\values-v11\\style.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 680,
+                        "endLine": 21,
+                        "endColumn": 8,
+                        "endOffset": 873
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 633,
+                    "endLine": 17,
+                    "endColumn": 8,
+                    "endOffset": 876
+                },
+                "from": {
+                    "file": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\values-v11\\style.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 0,
+                        "startOffset": 1140,
+                        "endLine": 30,
+                        "endColumn": 8,
+                        "endOffset": 1383
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 881,
+                    "endLine": 19,
+                    "endColumn": 8,
+                    "endOffset": 978
+                },
+                "from": {
+                    "file": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\values-v11\\style.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 0,
+                        "startOffset": 1385,
+                        "endLine": 33,
+                        "endColumn": 8,
+                        "endOffset": 1482
+                    }
+                }
+            }
+        ]
+    }
+]

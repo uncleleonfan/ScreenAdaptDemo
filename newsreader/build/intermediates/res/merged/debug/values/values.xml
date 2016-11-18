@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="has_two_panes">false</bool>
+    <item name="main_layout" type="layout">@layout/onepane_with_bar</item>
+    <string name="app_name">NewsReader</string>
+    <string name="hello">Hello World, NewsReaderActivity!</string>
+    <style name="CategoryButtonStyle" parent="@android:style/Widget.Button">
+    <item name="android:textColor">#ffffff</item>
+</style>
+    <style name="NewsReaderStyle" parent="android:Theme.Light.NoTitleBar">
+</style>
+    <style name="NewsReaderStyle_NoActionBar" parent="android:Theme.Light.NoTitleBar">
+</style>
+</resources>

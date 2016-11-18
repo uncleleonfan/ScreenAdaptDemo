@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\button_pressed.9.png",
+        "source": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\drawable-mdpi\\button_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\logo.png",
+        "source": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\drawable-mdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\tab_bg_normal.9.png",
+        "source": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\drawable-mdpi\\tab_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\button_normal.9.png",
+        "source": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\drawable-mdpi\\button_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\tab_bg_selected.9.png",
+        "source": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\drawable-mdpi\\tab_bg_selected.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icon.png",
+        "source": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\drawable-mdpi\\icon.png"
+    }
+]
