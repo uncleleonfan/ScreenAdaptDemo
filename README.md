@@ -98,7 +98,64 @@ Android开发时用此单位设置文字大小，可根据字体大小首选项�
 
 # 屏幕适配之布局适配 #
 ## 布局参数 ##
-使用wrap_content, match_parent, weight。
+使用wrap_content, match_parent, layout_weight。
+
+### weight的使用 ###
+![weight](img/weight_examples.png)
+
+* 当layout_width为0dp，layout_weight分别是1和2	
+
+		<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	
+	        <Button
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="weight = 1"/>
+	
+	        <Button
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="2"
+	            android:text="weight = 2"/>
+	    </LinearLayout>
+
+* 当layout_width为match_parent,layout_weight分别为1和2
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	
+	        <Button
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="weight = 1"/>
+	
+	        <Button
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="2"
+	            android:text="weight = 2"/>
+	    </LinearLayout>
+
+### weight的计算 ###
+宽度 = 原来宽度 + 权重比值 * 剩余宽度
+
+* 当layout_width为0dp，layout_weight分别是1和2	
+
+	第一个按钮：宽度 = 0 + 1/3 * 屏宽 = 1/3屏宽
+
+	第二个按钮：宽度 = 0 + 2/3 * 屏宽 = 2/3屏宽
+* 当layout_width为match_parent, layout_weight分别是1和2
+	
+	第一个按钮：宽度 = 屏宽 + 1/3 * (屏宽 - 2 * 屏宽) = 2/3屏宽
+
+	第二个按钮：宽度 = 屏宽 + 2/3 * (屏宽 - 2 * 屏宽) = 1/3屏宽
 
 ## 布局容器 ##
 使用相对布局，禁用绝对布局。
