@@ -157,19 +157,58 @@ Android开发时用此单位设置文字大小，可根据字体大小首选项�
 
 	第二个按钮：宽度 = 屏宽 + 2/3 * (屏宽 - 2 * 屏宽) = 1/3屏宽
 
-## 布局容器 ##
+## 布局使用 ##
 使用相对布局，禁用绝对布局。
 
 ## 限定符 ##
+
 ### 尺寸限定符 ###
 * 在手机较小的屏幕上，加载layout文件夹布局
 * 在平板电脑和电视的屏幕（>7英寸）上， 加载layout-large文件夹的布局
 * Android3.2版本之前
+
 ### 最小宽度限定符 ###
 * 在手机较小的屏幕上，加载layout文件夹布局
 * 标准7英寸平板（其最小宽度为 600 dp），加载layout-sw600dp文件夹的布局
 * 在Android3.2版本及之后版本
+
 ### 布局别名 ###
+
+* 适配手机的单面板（默认）布局：res/layout/activity_main.xml
+* 适配尺寸>7寸平板的双面板布局（Android 3.2前）：res/layout-large/activity_main.xml
+* 适配尺寸>7寸平板的双面板布局（Android 3.2后）：res/layout-sw600dp/activity_main.xml
+
+最后的两个文件的xml内容是完全相同的，这会带来：文件名的重复从而带来一些列后期维护的问题，修改一个文件，
+可能忘记修改另外一个。**于是为了要解决这种重复问题，我们引入了布局别名**。
+
+* 适配手机的单面板（默认）布局：res/layout/activity_main.xml
+* 适配尺寸>7寸平板的双面板布局：res/layout/activity_twopanes.xml
+
+
+* res/values/layout.xml
+
+		<?xml version="1.0" encoding="utf-8"?>
+		<resources>
+		    <item name="main" type="layout">@layout/activity_main</item>
+		</resources>
+
+* res/values-large/layout.xml
+
+	
+		<?xml version="1.0" encoding="utf-8"?>
+		<resources>
+		    <item name="main" type="layout">@layout/activity_twopanes</item>
+		</resources>
+
+* res/values-sw600dp/layout.xml
+
+		<?xml version="1.0" encoding="utf-8"?>
+		<resources>
+		    <item name="main" type="layout">@layout/activity_twopanes</item>
+		</resources>
+
+* setContentView(R.layout.main);
+
 
 ### 屏幕方向限定符 ###
 
