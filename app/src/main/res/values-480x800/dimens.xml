@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="button_length_1">113dp</dimen>
+    <dimen name="button_length_2">100dp</dimen>
+</resources>

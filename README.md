@@ -211,9 +211,62 @@ Android开发时用此单位设置文字大小，可根据字体大小首选项�
 
 
 ### 屏幕方向限定符 ###
+* res/layout-land
+* res/layout-port
+* res/layout-sw600dp-land
+* res/layout-sw600dp-port
+
+# 屏幕适配之dimen适配 #
+* Nexus 4 (4.7英寸 768x1280:xhdpi)
+
+	![dimen1](img/dimen_example1.png)
+
+* Nexus S (4英寸 480x800:hdpi)
+
+	![dimen1](img/dimen_example2.png)
+
+即使使用dp，依然不能解决屏幕分辨率的适配问题，我们可以针对不同的屏幕创建不同的dimen值。
+
+* res/values/dimens.xml
+
+		<resources>
+	    <dimen name="button_length_1">180dp</dimen>
+	    <dimen name="button_length_2">160dp</dimen>
+		</resources>
+
+* res/values-480x800/dimens.xml
+
+		<resources>
+		    <dimen name="button_length_1">113dp</dimen>
+		    <dimen name="button_length_2">100dp</dimen>
+		</resources>
 
 
-# 屏幕适配之Dimen适配 #
+# 屏幕适配之百分比布局 #
+* [官方文档](https://developer.android.com/topic/libraries/support-library/features.html#percent)
+* [Github Sample](https://github.com/JulienGenoud/android-percent-support-lib-sample)
+
+		<?xml version="1.0" encoding="utf-8"?>
+		<android.support.percent.PercentRelativeLayout
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    xmlns:app="http://schemas.android.com/apk/res-auto"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content">
+		
+		    <Button
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:text="30%"
+		        app:layout_widthPercent="30%"/>
+		
+		    <Button
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentRight="true"
+		        android:text="20%"
+		        app:layout_widthPercent="20%"/>
+		
+		</android.support.percent.PercentRelativeLayout>
 
 
 # 屏幕适配之自适应用户界面流程 #
