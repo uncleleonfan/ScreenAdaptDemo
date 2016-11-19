@@ -321,5 +321,7 @@ Android开发时用此单位设置文字大小，可根据字体大小首选项�
     }
 
 # 参考 #
+本文部分文字和图片直接摘录自以下内容：
+
 * [Android官网](https://developer.android.com/guide/practices/screens_support.html)
 * [Android开发：最全面、最易懂的Android屏幕适配解决方案](http://www.jianshu.com/p/ec5a1a30694b)
