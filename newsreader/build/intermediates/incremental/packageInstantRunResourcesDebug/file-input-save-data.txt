@@ -1,8 +1,8 @@
 #Internal package file, do not edit.
-#Fri Nov 18 12:16:33 CST 2016
+#Sat Nov 19 09:45:05 CST 2016
 8.set=ANDROID_RESOURCE
 1.base=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_
-1.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\button_normal.9.png
+1.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\tab_bg.xml
 3.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
 3.base=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_
 15.set=ANDROID_RESOURCE
@@ -10,8 +10,8 @@
 5.base=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_
 5.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\twopanes.xml
 7.base=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_
-7.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\tab_bg_selected.9.png
-11.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\logo.png
+7.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\button_bg.xml
+11.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\button_pressed.9.png
 11.base=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_
 9.base=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_
 9.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\tab_bg_normal.9.png
@@ -28,17 +28,17 @@
 0.base=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_
 0.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\actionbar_list_item.xml
 6.set=ANDROID_RESOURCE
-2.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\tab_bg.xml
+2.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\button_normal.9.png
 2.base=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_
 4.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\onepane.xml
 4.base=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_
 6.base=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_
 6.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\headline_item.xml
 10.base=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_
-10.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\button_pressed.9.png
+10.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\logo.png
 13.set=ANDROID_RESOURCE
 8.base=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_
-8.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\button_bg.xml
+8.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\tab_bg_selected.9.png
 2.set=ANDROID_RESOURCE
 12.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\twopanes_narrow.xml
 12.base=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_

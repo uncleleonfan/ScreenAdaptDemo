@@ -4,29 +4,29 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="10574857433228"
+    timestamp="2379527947786"
     token="-1074329957507182182"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="572" />
+        duration="517" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="164" />
+        duration="135" />
     <task
         name="verifier"
-        duration="45" />
+        duration="34" />
 
     <artifact
         location="C:\Users\Leon\workspace\ScreenAdaptDemo\newsreader\build\outputs\apk\newsreader-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="10574857433228"
+        timestamp="2379527947786"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Leon\workspace\ScreenAdaptDemo\newsreader\build\outputs\apk\newsreader-debug.apk"

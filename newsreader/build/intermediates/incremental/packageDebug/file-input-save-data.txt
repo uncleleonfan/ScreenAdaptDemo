@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Nov 18 12:16:36 CST 2016
+#Sat Nov 19 09:45:07 CST 2016
 25.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\tab_bg_selected.9.png
 25.base=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_
 22.set=DEX
@@ -60,7 +60,7 @@ count=29
 18.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_9650e4747d15817d519741e9ca7570a5d4b20d36\\classes.dex
 9.base=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_
 18.base=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_9650e4747d15817d519741e9ca7570a5d4b20d36
-11.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\logo.png
+11.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\button_pressed.9.png
 11.base=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_
 24.set=DEX
 3.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_3\\classes.dex
@@ -71,7 +71,7 @@ count=29
 18.set=DEX
 19.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\actionbar_list_item.xml
 19.base=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_
-12.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\button_pressed.9.png
+12.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\logo.png
 12.base=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\resources-debug.ap_
 4.set=DEX
 4.file=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex

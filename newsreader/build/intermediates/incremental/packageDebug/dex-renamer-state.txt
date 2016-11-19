@@ -1,4 +1,4 @@
-#Fri Nov 18 12:16:36 CST 2016
+#Sat Nov 19 09:45:07 CST 2016
 base.0=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_2b07e2adb298cb070330d59aaf18ecbccbefce5a
 renamed.1=classes.dex
 renamed.0=classes2.dex

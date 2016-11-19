@@ -269,10 +269,56 @@ Android开发时用此单位设置文字大小，可根据字体大小首选项�
 		</android.support.percent.PercentRelativeLayout>
 
 
-# 屏幕适配之自适应用户界面流程 #
+# 屏幕适配之自适应用户界面 #
+![NewsReader横屏](img/newsreader_land.png)
 
+![NewsReader竖屏](img/newsreader_port.png)
 
+当NewsReader在横屏时是双面板，左侧是HeadLinesFragment, 右侧是ArticleFragment, 点击新闻标题, 切换ArticleFragment的内容。
+当NewsReader在竖屏时是单面板，只有个HeadLinesFragment, 点击新闻标题，跳转到ArticleActivity去显示新闻内容。所以，要实现这样的横竖屏适配，只是通过布局是完成不了的，
+不同业务逻辑的处理，还需要写代码来完成，这就是我们的自适应用户界面。
 
+## 使用布局别名 ##
+* res/values/layouts.xml
+
+		<resources>
+	    <item name="main_layout" type="layout">@layout/onepane_with_bar</item>
+	    <bool name="has_two_panes">false</bool>
+		</resources>
+
+* res/values-sw600dp-land/layouts.xml
+	
+		<resources>
+	    <item name="main_layout" type="layout">@layout/twopanes</item>
+	    <bool name="has_two_panes">true</bool>
+		</resources>
+
+* res/values-sw600dp-port/layouts.xml
+
+		<resources>
+		    <item name="main_layout" type="layout">@layout/onepane</item>
+		    <bool name="has_two_panes">false</bool>
+		</resources>
+
+## 判断是单面板还是双面板 ##
+	View articleView = findViewById(R.id.article);
+	mIsDualPane = articleView != null && articleView.getVisibility() == View.VISIBLE;//如果能够找到ArticleFragment则是双面板
+
+## 单双面板的不同业务逻辑 ##
+    public void onHeadlineSelected(int index) {
+        mArtIndex = index;
+        if (mIsDualPane) {
+            // display it on the article fragment
+            mArticleFragment.displayArticle(mCurrentCat.getArticle(index));
+        }
+        else {
+            // use separate activity
+            Intent i = new Intent(this, ArticleActivity.class);
+            i.putExtra("catIndex", mCatIndex);
+            i.putExtra("artIndex", index);
+            startActivity(i);
+        }
+    }
 
 # 参考 #
 * [Android官网](https://developer.android.com/guide/practices/screens_support.html)

@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_bg_normal.9.png",
-        "source": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\drawable-xhdpi\\tab_bg_normal.9.png"
-    },
-    {
         "merged": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon.png",
         "source": "C:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\src\\main\\res\\drawable-xhdpi\\icon.png"
     },
