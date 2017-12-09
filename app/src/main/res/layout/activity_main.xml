@@ -49,7 +49,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World! Hello World! Hello World! Hello World!Hello World!Hello World!Hello World! Hello World!
-        Hello World!Hello World! Hello World! Hello World! Hello World! Hello World! Hello World!"
+        android:text="Hello World! Hello World! Hello World! Hello World!Hello World!Hello World!Hello World! Hello World!Hello World!Hello World! Hello World! Hello World! Hello World! Hello World! Hello World!"
         android:background="@drawable/send_msg_normal"/>
 </LinearLayout>
