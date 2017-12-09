@@ -1,7 +1,0 @@
-#Sat Nov 19 09:45:07 CST 2016
-base.0=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_2b07e2adb298cb070330d59aaf18ecbccbefce5a
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_67f8f773fb12db4ffb181d704292fd933029cf4f\\classes.dex
-base.1=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_67f8f773fb12db4ffb181d704292fd933029cf4f
-file.0=C\:\\Users\\Leon\\workspace\\ScreenAdaptDemo\\newsreader\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_2b07e2adb298cb070330d59aaf18ecbccbefce5a\\classes.dex

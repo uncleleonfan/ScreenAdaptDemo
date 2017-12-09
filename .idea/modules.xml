@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ScreenAdaptDemo.iml" filepath="$PROJECT_DIR$/ScreenAdaptDemo.iml" />
+      <module fileurl="file://C:\Work\workspace\AndroidStudioProjects\ScreenAdaptDemo\ScreenAdaptDemo.iml" filepath="C:\Work\workspace\AndroidStudioProjects\ScreenAdaptDemo\ScreenAdaptDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Work\workspace\AndroidStudioProjects\ScreenAdaptDemo\app\app.iml" filepath="C:\Work\workspace\AndroidStudioProjects\ScreenAdaptDemo\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/newsreader/newsreader.iml" filepath="$PROJECT_DIR$/newsreader/newsreader.iml" />
+      <module fileurl="file://C:\Work\workspace\AndroidStudioProjects\ScreenAdaptDemo\newsreader\newsreader.iml" filepath="C:\Work\workspace\AndroidStudioProjects\ScreenAdaptDemo\newsreader\newsreader.iml" />
     </modules>
   </component>
 </project>

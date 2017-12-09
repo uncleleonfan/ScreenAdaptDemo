@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 14
-    buildToolsVersion "23.0.2"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
 
     defaultConfig {
         applicationId "com.example.android.newsreader"
-        minSdkVersion 7
-        targetSdkVersion 14
+        minSdkVersion 15
+        targetSdkVersion 26
     }
 
     buildTypes {
